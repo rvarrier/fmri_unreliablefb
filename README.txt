@@ -17,4 +17,4 @@ fmri_extract_anat_visual_voxels.m : creation of the V1 mask from the probabilist
 
 fmri_univariate_analysis_V1.m : code showing univariate analysis of V1 voxels.
 
-cvMANOVA_V1_ROI_analysis.csv : pattern distinctness estimates for each test phase (columns 1 and 2) for reliable/unreliable feedback (column 3; 1:reliable fb, 2:unreliable fb). Other columns are as follows: column 4: threshold angular deviation of stimuli from the 45° or 135° references , column 5 and 6: task performance pre- and post-intervention, column 7: index to select or exclude participants (1: selected participants), column 8 and 9 differences between rows 1 and 2, and 5 and 6, respectively. Rows show participants. 
+cvMANOVA_V1results.mat: pattern distinctness estimates for each test phase and orientation pair (col1: pair1/pre, col2: pair2/pre, col3: pair1/post, col4: pair2/post, col5: fbtype = reliable, 2=unreliable feedback, col6 = threshold angular deviation of stimuli from the 45° or 135° references).
