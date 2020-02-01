@@ -18,3 +18,13 @@ fmri_extract_anat_visual_voxels.m : creation of the V1 mask from the probabilist
 fmri_univariate_analysis_V1.m : code showing univariate analysis of V1 voxels.
 
 cvMANOVA_V1results.mat: pattern distinctness estimates for each test phase and orientation pair (col1: pair1/pre, col2: pair2/pre, col3: pair1/post, col4: pair2/post, col5: fbtype = reliable, 2=unreliable feedback, col6 = threshold angular deviation of stimuli from the 45° or 135° references).
+results_univ_act.csv: overall activity within the V1 voxels used for multivariate analyses
+
+Eyetracking
+data_eyetracking.mat - eyetracking data after preprocessing and baseline correction. Data is only from the stimulus presentation windows on each trial (approx 10 data points per trial, spaced 20ms apart. Stimulus display time 200ms)
+data_across_blocks_and_subjects_incl_no_resp.mat - behavioural data across participants (n= 30) and runs (pre,intervention and post = 24 runs) including the missing trials used for the multivariate analyses of the eyetracking data
+Decoding_accuracy_backup.csv - decoding accuracy at each test phase (pre/post) and for each participant. fbtype 1: reliable, 2: unreliable. Fourth column has subject numbers comparable to the behavioural and fMRI data.
+eye_DataAnalysis.m - eyetracking data processing to obtain fixation percentage and to decode stimuli from eyetracking data similar to the method reported by Thielen et al., 2019, Scientific Reports
+
+Debriefing data
+Debriefing_ind.xlsx - has the percentages and ratings (converted to integers, scale mentioned in the file) used to estimate reliability on fb, awareness of feedback manipulation and task motivation.
